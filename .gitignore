@@ -80,3 +80,43 @@ CMakeLists.txt.user*
 .rcc/
 .uic/
 /build*/
+
+# macOS 系統檔案
+*.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# Qt Creator 本地配置檔案
+*.autosave
+*.pro.user
+*.pro.user.*
+*.qbs.user
+*.qbs.user.*
+*.creator.*
+*.creator
+*.creator.user
+
+# CMake 產出目錄（保險）
+/CMakeFiles/
+/CMakeCache.txt
+/cmake_install.cmake
+/Makefile
+
+# 本地執行檔與產物
+*.out
+*.log
+*.bin
+
+# Qt 預編譯/產出資料夾（確保覆蓋）
+build*/
+*.pro.user.*
+*.qmake.stash
+*.qmake.cache
+*.pro.user
+
+# 自己設定的資料夾（如果有 logs/tmp 這類）
+/logs/
+/tmp/
+/*.bak
